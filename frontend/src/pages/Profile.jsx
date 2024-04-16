@@ -27,7 +27,7 @@ export const Profile = () => {
 		<div className="flex justify-center items-center mt-16 ">
 			{Object.keys(user).length > 0 ? (
 				<div className="bg-blue-100 p-8 rounded-lg">
-					<h1 className="text-7xl">Nombre: {user.name}</h1>
+					<h1 className="text-3xl">Nombre: {user.name}</h1>
 					<h1 className="text-xl">Email: {user.email}</h1>
 					<h1 className="text-xl">Role: {user.role}</h1>
 					<h1>id: {user.id}</h1>
